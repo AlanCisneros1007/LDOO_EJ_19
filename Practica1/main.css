@@ -1,0 +1,106 @@
+body{
+	background-image:url("images//background.jpg");
+	background-size: auto;
+}
+
+h1{
+	color: white;
+	font-size: 50px;
+	text-decoration: underline aqua;
+	text-align: center;
+	font-family:sans-serif;
+
+}
+
+#MenuBar{
+	width: 210px;
+	height: 210px;
+	margin-left: 0px;
+	background-color: black;
+
+}
+
+#MenuBar ul li{
+	display: inline-block;
+	margin-left: -160px;
+}
+
+#MenuBar ul li a{
+	text-decoration: none;
+	display: block;
+	padding:15px 140px;
+	color:white;
+}
+
+
+
+#NavigationBar{
+	background-color: black;
+
+}
+#NavigationBar ul{
+	list-style-type: none;
+	margin: 0px;
+ 	padding: 0px;
+}
+
+#NavigationBar ul li{
+	display: inline-block;
+}
+
+#NavigationBar ul li a{
+	text-decoration: none;
+	display: block;
+	padding:15px 140px;
+	color:white;
+}
+
+#NavigationBar ul li a:hover{
+	background-color:#09C880;
+}
+
+#imagen{
+	margin-left: 30%;
+	margin-top: -200px;
+	height: 420px;
+	width: 540px;
+}
+
+#texto{
+	color:white;
+	font-size:22px;
+	background-color: black;
+}
+
+#textbox{
+	margin-left: 02%;
+}
+
+#Enviar{
+	margin-left: 44%;
+}
+
+#fecha, #hora{
+	color:white;
+}
+
+#Dropdowlist{
+	color:white;
+}
+
+#link{
+	color:white;
+}
+
+#formulario{
+	background-color: black;
+	color:white;
+	margin: 0px;
+	height: 290px;
+	width:700px;
+ 	padding: 0px;
+ 	display: inline-block;
+}
+
+
+
