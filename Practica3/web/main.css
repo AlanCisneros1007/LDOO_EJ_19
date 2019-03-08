@@ -1,0 +1,40 @@
+body{
+   background-size: auto;
+   background-image: url(untitled.png);
+   
+
+}
+
+.labels{
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#nombre{
+    margin-top: 200px;
+    margin-left: 520px;
+}
+
+#email, #pass, #fn{
+    margin-left:520px;
+}
+
+#botone{
+    margin-left:520px;
+}
+#botonb{
+    margin-left:220px;
+}
+
+#bienvenida{
+    color:white;
+    font-size:20px;
+    margin-left: 500px;
+}
+
+.hola{
+    font-size:30px;
+    color: white;
+}
