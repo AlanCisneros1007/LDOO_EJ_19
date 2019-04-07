@@ -1,0 +1,2 @@
+usuario ya registrado: alancisneros
+contraseña (segura) : 1234
