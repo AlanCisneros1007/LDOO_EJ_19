@@ -24,7 +24,7 @@ public class Invitado extends Usuario{
         setFn(fn);
         setEmail(email);
         setNombre(nombre);
-        setRango("inv");
+        setRango("Invitado");
     }
 
     
