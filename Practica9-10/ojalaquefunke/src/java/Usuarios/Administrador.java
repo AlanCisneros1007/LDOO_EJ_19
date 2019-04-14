@@ -18,7 +18,7 @@ public class Administrador extends Usuario {
 
     public Administrador(String usuario, String password, int id, String fn, String email) {
         super(usuario, password, id, fn, email);
-        setRango("adm");
+        setRango("Administrador");
     }
 
     public int getNempl() {
