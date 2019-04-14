@@ -17,11 +17,11 @@
             <label>Usuario</label>
             <input type="text" name="usuario"><br/>
             <label>Contraseña</label>
-            <input type="text" name="pass"><br/>
+            <input type="password" name="pass"><br/>
             <label>Fecha de Nacimiento</label>
             <input type="text" name="fn"><br/>
             <label>Email</label>
-            <input type="password" name="email"><br/>
+            <input type="text" name="email"><br/>
             <label>ID</label>
             <input type="text" name="id"><br/>
             <label>No. de Empleado</label>
