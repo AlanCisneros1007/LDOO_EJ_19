@@ -18,9 +18,9 @@
        
                 <form action="ControladorServlet" method="post">            
             <select name="rango">
-                <option value="adm">Administrador</option>
-                <option value="invitado">Invitado</option>
-                <option value="user">Usuario</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Invitado">Invitado</option>
+                <option value="Normal">Usuario</option>
             </select>   
             <input type="submit" value="Enviar">
         </form>
