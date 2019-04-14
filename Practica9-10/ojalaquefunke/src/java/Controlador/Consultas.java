@@ -21,7 +21,7 @@ public class Consultas extends Conexion {
                String consulta = null;
                
              switch (factory.getUser(usuario).getRango()) {
-                 case "Admin":
+                 case "Administrador":
                      consulta = "select * from admin where user = ? and password = ?";
                      break;
                  case "Normal":
@@ -61,7 +61,7 @@ public class Consultas extends Conexion {
           PreparedStatement pst = null;
         try{
               switch (rango) {
-                  case "Admin":
+                  case "Administrador":
                       {
                           String consulta = "insert into admin (user, password, fn, email, rango, id, nempl) values(?,?,?,?,?,?,?)";
                           pst = getConexion().prepareStatement(consulta);
