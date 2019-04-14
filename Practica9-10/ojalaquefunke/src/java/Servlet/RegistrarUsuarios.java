@@ -60,7 +60,7 @@ public class RegistrarUsuarios extends HttpServlet {
         String fre = null;
 
         switch (rango) {
-            case "Admin":
+            case "Administrador":
                 nempl = ((Administrador) factory.getUser(request.getParameter("user"))).getNempl();
                 break;
             case "Normal":
